@@ -25,5 +25,12 @@ execute unless entity @s[ \
         nbt=!{Item:{id:"minecraft:smooth_basalt"}} \
     ] run function cobblestone_conversions:_cut_yield_nether
 
+# Decorative stones
+execute unless entity @s[ \
+        nbt=!{Item:{id:"minecraft:granite"}}, \
+        nbt=!{Item:{id:"minecraft:diorite"}}, \
+        nbt=!{Item:{id:"minecraft:andesite"}} \
+    ] run function cobblestone_conversions:_cut_yield_decorative
+
 # Kill stone item we have just cut.
 kill @s
