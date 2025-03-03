@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "   ",
+    " D ",
+    "   "
+  ],
+  "key": {
+    "D": "minecraft:cobbled_deepslate"
+  },
+  "result": {
+    "id": "minecraft:cobblestone",
+    "count": 4,
+    "components": {
+      "item_name":"cobblestone"
+    }
+  }
+}

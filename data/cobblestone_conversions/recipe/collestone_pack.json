@@ -1,0 +1,14 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " CC",
+    " CC",
+    "   "
+  ],
+  "key": {
+    "C": "minecraft:cobblestone"
+  },
+  "result": {
+    "id": "minecraft:cobbled_deepslate"
+  }
+}
